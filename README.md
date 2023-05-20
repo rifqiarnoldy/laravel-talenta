@@ -8,19 +8,19 @@
 
 2. Copy file **.env.example** ke **.env**
     ```bash
-      cp .env.example .env
+        cp .env.example .env
     ```
 3. Generate Key
 
     ```bash
-      php artisan key:generate
+        php artisan key:generate
     ```
 
 4. Jalankan migrasi **database**
     ```bash
-    php artisan migrate:fresh
+        php artisan migrate:fresh
     ```
 5. Jalankan fungsi **seeder**
     ```bash
-    php artisan db:seed
+        php artisan db:seed
     ```
